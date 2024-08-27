@@ -17,11 +17,19 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
+  padding: 0;
   display: flex;
   gap: 40px;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
 }
 
 a {
@@ -206,9 +214,11 @@ a {
 
 .quality-item {
   width: calc((100% - 72px) / 4);
+  margin-right: 24px;
 }
+
 .quality-item:last-child {
-  margin-right: 0%;
+  margin-right: 0;
 }
 */ .qualities-list .quality-item {
   display: flex;
@@ -251,6 +261,10 @@ a {
   text-align: center;
   background-color: #f4f4fd;
   padding: 120px 0;
+}
+
+.team-list {
+  gap: 24px;
 }
 
 .team-section ul {
