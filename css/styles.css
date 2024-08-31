@@ -207,7 +207,7 @@ a {
   margin: 0 auto;
   margin-top: 55px;
   padding: 16px 32px;
-  transition: background-color 250ms cubic-beiser(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .home-button:hover,
