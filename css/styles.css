@@ -433,6 +433,15 @@ a {
   padding: 100px 0;
 }
 
+.container {
+  display: flex;
+  align-items: baseline;
+}
+
+.logoandp {
+  margin-right: 120px;
+}
+
 .footer .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
