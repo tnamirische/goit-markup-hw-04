@@ -349,9 +349,10 @@ a {
   gap: 24px;
 }
 
-.social-list {display: flex;
+.social-list {
+  display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 24px; 
 }
 
 .social-item a {
