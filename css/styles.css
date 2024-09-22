@@ -444,7 +444,7 @@ a {
   transform: translateY(0%); 
 }
 
-.portfolio-item:first-child:hover p {
+.portfolio-item:hover p {
   transform: translateY(0%); 
 }
 
