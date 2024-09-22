@@ -139,6 +139,7 @@ a {
   bottom: -1px;
   height: 4px;
   border-radius: 2px;
+  background-color: #404bbf;
 }
 
 .contact-info a {
@@ -346,7 +347,28 @@ a {
   gap: 24px;
 }
 
-.social-icon {
+.social-list {display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms ease-in-out;
+}
+
+.social-item a:hover{ background-color: #404bbf;}
+
+.social-item svg {
+  fill: #f4f4fd;
+  width: 40px;
+  height: 40px;
 }
 
 .team-name {
