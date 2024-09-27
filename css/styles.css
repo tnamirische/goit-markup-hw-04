@@ -69,8 +69,8 @@ a {
 }
 .container {
   width: 1158px;
-  margin: 0 auto;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 .nav {
@@ -187,6 +187,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .home-title {
@@ -583,7 +584,7 @@ p.soc-media {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--white-color, #FFFFFF);
-  margin-bottom: 16px;
+
 }
 
 /* Social Media List */
@@ -620,6 +621,8 @@ svg.social-icon {
   width: 24px;
   height: 24px;
   fill: var(--icon-color, #f4f4fd);
+  display: flex;
+
 }
 
 
