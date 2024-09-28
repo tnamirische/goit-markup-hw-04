@@ -154,7 +154,7 @@ a {
   color: #404bbf;
 }
 
-.header .menu-link_first::after {
+/*.header .menu-link_first::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -163,7 +163,7 @@ a {
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
-}
+}*/
 
 
 .contact-info a {
