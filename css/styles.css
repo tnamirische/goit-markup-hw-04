@@ -5,15 +5,6 @@ body {
   background-color: #ffffff;
 }
 
-.header {
-
-  border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    position: relative;
-}
-
-
 
 img {
   display: block;
@@ -40,11 +31,17 @@ a {
 /* Header */
 .header {
   background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  position: relative;
+  w
+
 }
 
 .header-container {
   display: flex;
   align-items: center;
+
 }
 
 /* Список контактів */
@@ -139,7 +136,7 @@ a {
   color: #404bbf;
 }
 
-header .menu-link_first::after {
+.header .menu-link_first::after {
   content: "";
   width: 48px;
   position: absolute;
