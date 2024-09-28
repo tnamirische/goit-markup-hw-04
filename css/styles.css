@@ -36,6 +36,7 @@ a {
               0px 1px 1px rgba(46, 47, 66, 0.16),
               0px 1px 6px rgba(46, 47, 66, 0.08);
   position: relative;
+
 }
 
 
@@ -135,18 +136,15 @@ a {
 }
 
 .menu-link.menu-link_first::after {
-  content: ''; /* вміст псевдоелемента */
-  width: 100%; /* ширина по батьківському елементу */
-  position: absolute; /* позиція відносно батьківського елемента */
-  left: 0; /* відстань зліва */
-  bottom: -1px; /* відстань знизу */
-  height: 4px; /* висота */
-  background-color: #404bbf; /* колір фону */
-  border-radius: 2px; /* закруглення кутів */
-}
-
-
-
+  content: ''; 
+  width: 100%; 
+  position: absolute; 
+  left: 0; 
+  bottom: -1px; 
+  height: 4px; 
+  background-color: #404bbf; 
+  border-radius: 2px; 
+} 
 
 
 .menu-link:hover,
@@ -154,16 +152,6 @@ a {
   color: #404bbf;
 }
 
-/*.header .menu-link_first::after {
-  content: "";
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #404bbf;
-}*/
 
 
 .contact-info a {
