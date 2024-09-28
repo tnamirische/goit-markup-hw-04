@@ -32,15 +32,18 @@ a {
 .header {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+              0px 1px 1px rgba(46, 47, 66, 0.16),
+              0px 1px 6px rgba(46, 47, 66, 0.08);
   position: relative;
-  
 }
+
 
 .header-container {
   display: flex;
   align-items: center;
-
+  justify-content: space-between;
+  padding: 0 15px;
 }
 
 /* Список контактів */
@@ -62,7 +65,7 @@ a {
   margin-right: 0;
 }
 
-.contact-link {
+.contact-link .contact-list {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container {
@@ -128,14 +131,30 @@ a {
 
 .menu-link {
   color: #2e2f42;
+  
 }
+
+.menu-link.menu-link_first::after {
+  content: ''; /* вміст псевдоелемента */
+  width: 100%; /* ширина по батьківському елементу */
+  position: absolute; /* позиція відносно батьківського елемента */
+  left: 0; /* відстань зліва */
+  bottom: -1px; /* відстань знизу */
+  height: 4px; /* висота */
+  background-color: #404bbf; /* колір фону */
+  border-radius: 2px; /* закруглення кутів */
+}
+
+
+
+
 
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
 }
 
-.header .menu-link .menu-link_first::after {
+.header .menu-link_first::after {
   content: "";
   width: 100%;
   position: absolute;
